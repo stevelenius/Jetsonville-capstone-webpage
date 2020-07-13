@@ -114,9 +114,10 @@ textarea {
   font-family: 'jetsonvillereg0025-regular';
 }
 html {
-       font-family: 'jetsonvillereg0025-regular';
-    font-size: 6vw;
-    line-height: 7vw;
+    background-color: #000; 
+    font-family: 'jetsonvillereg0025-regular';
+    font-size: 6vmin;
+    line-height: 7vmin;
     text-align: center; 
  /*   margin: 0;
     padding: 0;*/
@@ -126,8 +127,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw; 
-
+  height: 100vmin;
   /* Create the parallax scrolling effect */
   background-position: top;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #72CDFF;
   position: relative;
    position: sticky;
@@ -164,7 +164,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #FFFFD7;
   position: relative;
    position: sticky;
@@ -181,7 +181,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #F6DEE7;
   position: relative;
    position: sticky;
@@ -198,7 +198,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #AFEEEE;
   position: relative;
    position: sticky;
@@ -215,7 +215,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #FFD0B1;
   position: relative;
    position: sticky;
@@ -232,7 +232,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #E2CFF0;
   position: relative;
    position: sticky;
@@ -249,7 +249,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #D6F5CC;
   position: relative;
    position: sticky;
@@ -266,7 +266,7 @@ html {
   background-image: url("images/Animation_stage_web_1440x960.jpg");
 
   /* Set a specific height */
-  height: 100vw;
+  height: 100vmin;
   background-color: #FCDCD9;
   position: relative;
    position: sticky;
@@ -279,54 +279,62 @@ html {
   background-size: cover;*/
 }
 h1 {
-            font-size: 11vw;
-            line-height: 12vw;
+            font-size: 11vmin;
+            line-height: 12vmin;
             font-family: 'jetsonvillereg0025-regular';
             font-weight: normal;
             margin: 0;
-            padding: 0, 4vw;
+            padding: 0, 4vmin;
             text-align: center;
 
         }
 
 h2 {
-            font-size: 5vw;
-            line-height: 6vw;
+            font-size: 5vmin;
+            line-height: 6vmin;
             font-family: 'jetsonvillereg0025-regular';
             font-weight: normal;
             margin: 0;
-            padding: 0, 4vw;
+            padding: 0, 4vmin;
             text-align: center;
         }
 
 .t40 {
-    font-size: 4vw;
-    line-height: 5vw;
+    font-size: 4vmin;
+    line-height: 5vmin;
 }
 
 .t50 {
-    font-size: 5vw;
-    line-height: 6vw;
+    font-size: 5vmin;
+    line-height: 6vmin;
 }
 
 .t60 {
-    font-size: 6vw;
-    line-height: 7vw;
+    font-size: 6vmin;
+    line-height: 7vmin;
 }
 
 
 p {
     text-align: center;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
 }
 
-.bullets p {
+.bullets {
+    display: inline-block;
+    width: 72vmin;
+  /*  margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    */
+
+}.bullets p {
     text-align: left;
-    text-indent: -4.5vw;
-    margin-left: 4vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    text-indent: -4.5vmin;
+    margin: 2vmin auto;
+  /*  margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    */
 }
 
 .textblock {
