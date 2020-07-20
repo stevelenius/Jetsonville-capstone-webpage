@@ -99,9 +99,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-/*@import url(font-awesome.min.css);*/
-/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');*/
 @font-face {
   font-family: "jetsonvillereg0025-regular";
   src: url("fonts/jetsonvillereg0025-regular-webfont.woff2") format("woff2"),
@@ -113,185 +110,75 @@ textarea {
 .fs-jetsonvillereg0025-regular {
   font-family: 'jetsonvillereg0025-regular';
 }
-html {
-    background-color: #000; 
-    font-family: 'jetsonvillereg0025-regular';
-    font-size: 6vmin;
-    line-height: 7vmin;
-    text-align: center; 
- /*   margin: 0;
-    padding: 0;*/
-  }
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+html {
+  background-color: #000; 
+  font-family: 'jetsonvillereg0025-regular';
+  font-size: 6vmin;
+  line-height: 7vmin;
+  text-align: center; 
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
 .sky {
-  /* The image used */
   background-image: url("images/Animation_stage_web_1440x960.jpg");
-
-  /* Set a specific height */
   height: 100vmin;
-  /* Create the parallax scrolling effect */
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover; 
-    position: relative;
-    /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
+  position: relative;
 }
 
-
-
 .bkblue {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
-
-  /* Set a specific height */
   height: 100vmin;
   background-color: #72CDFF;
   position: relative;
-    /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 
 .bkyel {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
-
-  /* Set a specific height */
   height: 100vmin;
   background-color: #FFFFD7;
   position: relative;
-    /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
-.bkpink {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
 
-  /* Set a specific height */
+.bkpink {
   height: 100vmin;
   background-color: #F6DEE7;
   position: relative;
-     /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 .bkturq {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
-
-  /* Set a specific height */
   height: 100vmin;
   background-color: #AFEEEE;
   position: relative;
-     /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
-.bkcoral {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
 
-  /* Set a specific height */
+.bkcoral {
   height: 100vmin;
   background-color: #FFD0B1;
   position: relative;
-    /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
-.bkviolet {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
 
-  /* Set a specific height */
+.bkviolet {
   height: 100vmin;
   background-color: #E2CFF0;
   position: relative;
-     /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
-.bkmint {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
 
-  /* Set a specific height */
+.bkmint {
   height: 100vmin;
   background-color: #D6F5CC;
   position: relative;
-     /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
-.bkmary {
-  /* The image used 
-  background-image: url("images/Animation_stage_web_1440x960.jpg");
 
-  /* Set a specific height */
+.bkmary {
   height: 100vmin;
   background-color: #FCDCD9;
   position: relative;
-    /* position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-*/
-
-  /* Create the parallax scrolling effect 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 
 .sky, .bkblue, .bkyel, .bkpink, .bkturq, .bkcoral, .bkviolet, .bkmint, .bkmary {
@@ -301,133 +188,93 @@ html {
 }
 
 h1 {
-            font-size: 11vmin;
-            line-height: 12vmin;
-            font-family: 'jetsonvillereg0025-regular';
-            font-weight: normal;
-            margin: 0;
-            padding: 0, 4vmin;
-            text-align: center;
+  font-size: 11vmin;
+  line-height: 12vmin;
+  font-family: 'jetsonvillereg0025-regular';
+  font-weight: normal;
+  margin: 0;
+  padding: 0, 4vmin;
+  text-align: center;
 
-        }
+}
 
 h2 {
-            font-size: 5vmin;
-            line-height: 6vmin;
-            font-family: 'jetsonvillereg0025-regular';
-            font-weight: normal;
-            margin: 0;
-            padding: 0, 4vmin;
-            text-align: center;
-        }
-
-.t40 {
-    font-size: 4vmin;
-    line-height: 5vmin;
-}
-
-.t50 {
-    font-size: 5vmin;
-    line-height: 6vmin;
-}
-
-.t60 {
-    font-size: 6vmin;
-    line-height: 7vmin;
-}
-
-
-p {
-    text-align: center;
-    margin-top: 2vmin;
-    margin-bottom: 2vmin;
-}
-
-.bullets {
-    display: inline-block;
-    width: 72vmin;
-  /*  margin-top: 2vmin;
-    margin-bottom: 2vmin;
-    */
-
-}
-
-.logos {
-    display: inline-block;
-    width: 32vmin;
-  /*  margin-top: 2vmin;
-    margin-bottom: 2vmin;
-    */
-
-}
-
-.bullets40 {
-    display: inline-block;
-    width: 72vmin;
-  /*  margin-top: 2vmin;
-    margin-bottom: 2vmin;
-    */
-
-}
-
-.images-narrower {
-    display: inline-block;
-    width: 52vmin;
-  /*  margin-top: 2vmin;
-    margin-bottom: 2vmin;
-    */
-
-}
-
-.images {
-    display: inline-block;
-    width: 72vmin;
-  /*  margin-top: 2vmin;
-    margin-bottom: 2vmin;
-    */
-
-}
-
-.bullets p {
-    text-align: left;
-    text-indent: -4.5vmin;
-    margin: 2vmin auto;
-  /*  margin-top: 2vmin;
-    margin-bottom: 2vmin;
-    */
-}
-
-.bullets40 p {
-    text-align: left;
-    text-indent: -3.4vmin;
-    margin: 2vmin auto;
-  /*  margin-top: 2vmin;
-    margin-bottom: 2vmin;
-    */
+  font-size: 5vmin;
+  line-height: 6vmin;
+  font-family: 'jetsonvillereg0025-regular';
+  font-weight: normal;
+  margin: 0;
+  padding: 0, 4vmin;
+  text-align: center;
 }
 
 .textblock {
-/*    padding: 4vw;*/
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 80%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
 }
 
+.t40 {
+  font-size: 4vmin;
+  line-height: 5vmin;
+}
 
+.t50 {
+  font-size: 5vmin;
+  line-height: 6vmin;
+}
 
+.t60 {
+  font-size: 6vmin;
+  line-height: 7vmin;
+}
 
+p {
+  text-align: center;
+  margin-top: 2vmin;
+  margin-bottom: 2vmin;
+}
 
+.bullets {
+  display: inline-block;
+  width: 72vmin;
+}
 
+.bullets p {
+  text-align: left;
+  text-indent: -4.5vmin;
+  margin: 2vmin auto;
+}
 
+.bullets40 {
+  display: inline-block;
+  width: 72vmin;
+}
 
+.bullets40 p {
+  text-align: left;
+  text-indent: -3.4vmin;
+  margin: 2vmin auto;
+}
 
+.images {
+  display: inline-block;
+  width: 72vmin;
+}
 
+.images-narrower {
+  display: inline-block;
+  width: 52vmin;
+}
 
-
+.logos {
+  display: inline-block;
+  width: 32vmin;
+}
 
 
 /* ==========================================================================
