@@ -112,12 +112,25 @@ textarea {
 }
 
 html {
-  background-color: #000; 
+  background-color: #010101; 
   font-family: 'jetsonvillereg0025-regular';
   font-size: 6vmin;
   line-height: 7vmin;
-  text-align: center; 
+  text-align: center;
+/*  scroll snapping disabled because it causes inconsistent browser problems;
+    works on Chrome but causes problems on Firefox and Safari when reverse-scrolled.
+    These styles are for Chrome and Firefox (need to be in html tag)
+  scroll-snap-type: y mandatory; 
+  -webkit-scroll-snap-type: y mandatory;*/
 }
+
+/*  scroll snapping disabled because it causes inconsistent browser problems;
+    works on Chrome but causes problems on Firefox and Safari when reverse-scrolled.
+    These styles are for Safari (need to be in body tag)
+body {
+  scroll-snap-type: y mandatory;
+ -webkit-scroll-snap-type: y mandatory;
+}*/
 
 img {
   width: 100%;
@@ -185,6 +198,9 @@ img {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+/*  scroll snapping disabled because it causes inconsistent browser problems;
+    works on Chrome but causes problems on Firefox and Safari when reverse-scrolled.
+  scroll-snap-align: start;*/
 }
 
 h1 {
@@ -193,7 +209,7 @@ h1 {
   font-family: 'jetsonvillereg0025-regular';
   font-weight: normal;
   margin: 0;
-  padding: 0, 4vmin;
+  padding: 0 4vmin;
   text-align: center;
 
 }
@@ -204,7 +220,7 @@ h2 {
   font-family: 'jetsonvillereg0025-regular';
   font-weight: normal;
   margin: 0;
-  padding: 0, 4vmin;
+  padding: 0 4vmin;
   text-align: center;
 }
 
@@ -276,6 +292,29 @@ p {
   width: 32vmin;
 }
 
+a {
+  text-decoration-style: dotted;
+  }
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: #9370DB;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #20B2AA;
+}
 
 /* ==========================================================================
    Helper classes
@@ -300,7 +339,7 @@ p {
 
 .visuallyhidden {
     border: 0;
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     height: 1px;
     margin: -1px;
     overflow: hidden;
